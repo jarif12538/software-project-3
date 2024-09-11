@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f6fc; /* Light peach background */
+            color: #000000; /* Darker text color for contrast */
+        }
+
+        h1, h2 {
+            color: #47cbff; /* Tomato color for headings */
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #fc009b; /* Dark slate gray for blockquote text */
+            background-color: #f9ebea; /* Light pink background */
+            padding: 10px;
+            border-left: 5px solid #ff6347; /* Tomato border */
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #f4f6f7; /* Light gray table background */
+        }
+
+        table, th, td {
+            border: 2px solid #2c3e50; /* Dark slate gray border */
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #2980b9; /* Blue header background */
+            color: white; /* White text for contrast */
+        }
+
+        tr:nth-child(even) {
+            background-color: #e8f8f5; /* Light turquoise for even rows */
+        }
+
+        a {
+            color: #e74c3c; /* Bright red link */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #c0392b; /* Darker red on hover */
+        }
+
+        ol, ul {
+            color: #aa0b0b; /* Sea green for lists */
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Page Title -->
+    <h1>HTML Elements</h1>
+
+    <!-- Blockquote (Quotation) -->
+    <blockquote>
+        "The only limit to our realization of tomorrow is our doubts of today." – Franklin D. Roosevelt
+    </blockquote>
+
+    <!-- Hyperlink -->
+    <p>Visit <a href="https://in.pinterest.com/0706n/quto/" target="_blank">Example.com</a> for more information.</p>
+
+    <!-- Image -->
+    <img src="zz.jpg" alt="Placeholder Image">
+
+    <!-- Ordered List -->
+    <h2>Steps to Learn HTML</h2>
+    <ol>
+        <li>Understand HTML structure</li>
+        <li>Learn basic HTML elements</li>
+        <li>Practice with simple projects</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2>HTML Key Elements</h2>
+    <ul>
+        <li>Paragraph</li>
+        <li>Link</li>
+        <li>Table</li>
+        <li>Image</li>
+    </ul>
+
+    <!-- Table with Row Span and Column Span -->
+    <h2>Table Example</h2>
+    <table>
+        <tr>
+            <th colspan="2">Student Info</th>
+            <th rowspan="2">Grade</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jarif</td>
+            <td>22</td>
+            <td rowspan="2">A-</td>
+        </tr>
+        <tr>
+            <td>shanto</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>shakib</td>
+            <td>22</td>
+            <td>A+</td>
+        </tr>
+    </table>
+</body>
+</html>
